@@ -86,5 +86,29 @@ nav ul {
 }
 
 .grilla-conocimientos-programacion {
-    
+    display: grid;
+    grid-gap:10px;
+    text-align: center;
+    background-color: coral;     
+
+}
+
+.col-1-conocimientos-programacion {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.col-2-conocimientos-programacion {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.col-3-conocimientos-programacion {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.foto-conocimientos-programacion {
+    height: 200px;
+      
 }
