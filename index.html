@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css.estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Ariel Computación</title>
 
 
 </head>
 <body>
     <!– Barra de navegacion –>
-  <na-v>
+  <nav>
+    <div>
+        <img id="logo" src="images/LOGO.jpeg" alt="Logo de pagina web">
+    </div>
     <div>
         <ul>
             <li> <a href="">Inicio</a></li>
@@ -24,44 +27,63 @@
   </nav> 
 
     <div>
-        <h1>HOLA!</h1>
-        <h2> Yo soy un Software Develop</h2>
-        <h3>Me dedico al desarrolo de software</h3>
+        <h1 class="claseh1">HOLA!</h1>
+        <h2 class="claseh2">Yo soy un Software Develop</h2>
+        <h3 class="claseh3">Me dedico al desarrolo de software</h3>
     </div>
 
-    <div>
-        <img src="images/instagram2.png" alt="Instagram">
-        <img src="images/whatsaapp.png" alt="whatsapp">
+    <div class="div-logo-redes">
+        <a href=""><img class="logo-redes" src="images/instagram2.png" alt="Instagram"></a>
+        <a href=""><img class="logo-redes" src="images/whatsaapp.png" alt="whatsapp"></a>
     </div>
     
-    <div>
-        <img src="images/Developer.jpg" alt="Programador">
-        <h2>Acerca de mí</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quam quisquam minima libero et repudiandae dicta ex consequuntur, iste voluptatibus natus! In tenetur id corporis dolores eum delectus beatae laudantium.</p>
+
+    <div class="grilla-superior">
+        <div class="columna-1">
+            <img class="foto-grilla-superior" src="images/Developer.jpg" alt="Programador">
+        </div> 
+
+        <div class="columna-2">    
+            <h2>Acerca de mí</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Accusantium quam quisquam minima libero et repudiandae dicta 
+               ex consequuntur, iste voluptatibus natus! In tenetur id corporis 
+               dolores eum delectus beatae laudantium.</p>
+        </div>
     </div>
+    
 
     <div>
         <h2>Mis Conocimientos</h2>
-        <h2>Front End</h2>
-            <p>Html</p>
-            <p>CSS</p>
-            <p>JavaScript</p>
-            <p>Boostrap</p>
-            <p>Foundation</p>
-            <img src="images/css.png" alt="CSS">
-        <h2>Back End</h2>
-            <p>Python</p>
-            <p>Java</p>
-            <p>PHP</p>
-            <p>GO</p>
-            <p>DART</p>
-            <img src="images/python.png" alt="Python">
-        <h2>Base de Datos</h2>
-            <p>MySQL</p>
-            <p>Postgre SQL</p>
-            <p>Maria SQL</p>
-            <p>Mongo DB</p>
-            <img src="images/postgre.png" alt="PostgreSQL">
+            <div class="grilla-conocimientos-programacion">
+                <div>
+                    <h3>Front End</h2>
+                        <p>Html</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                        <p>Boostrap</p>
+                        <p>Foundation</p>
+                        <img src="images/css.png" alt="CSS">
+                </div>
+                <div>
+                    <h3>Back End</h2>
+                        <p>Python</p>
+                        <p>Java</p>
+                        <p>PHP</p>
+                        <p>GO</p>
+                        <p>DART</p>
+                        <img src="images/python.png" alt="Python">
+                </div>
+                <div>
+                    <h3>Base de Datos</h2>
+                        <p>MySQL</p>
+                        <p>Postgre SQL</p>
+                        <p>Maria SQL</p>
+                        <p>Mongo DB</p>
+                        <img src="images/postgre.png" alt="PostgreSQL">
+                </div>
+            </div>
+        
     </div>
 
     <div>
@@ -79,8 +101,10 @@
         <div>
             <img src="images/instagram2.png" alt="Instagram">
             <img src="images/whatsaapp.png" alt="whatsapp">
-        </div>    
+        </div>     
     </div>
 
+    <footer>Ejemplo de Landing Page 2023 - Ariel Computación 2023</footer>
+ 
 </body>
 </html>
