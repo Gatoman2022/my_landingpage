@@ -11,7 +11,18 @@
 }
 /* variables */
 :root {
-    
+    --color_texto-primario: #ab29ca;
+    --color_texto-secundario: #101e2c;
+    --color_texto-terciario: #485663;
+    --main_color-principal: #9a00bf;
+    --main_color-secundario: #f4d4fb;
+    --background-color: #faf8fe;
+    --lowtext_font-size: 16px;
+    --text_size-title: 40px;
+    --text_title-card: 24px;
+    --text_title-card2: 20px;
+    --text_paragraph: 16px;
+    --box_shadow-primario: 0px 6px 50px -20px rgba(0,0,0,0.2);
 }
 
 
@@ -66,20 +77,20 @@ header {
 }
 
 .menu nav li a {
-    color: black;  /* variable */
-    font-size: 16px; /* variable */
+    color: var(--color_texto-secundario);
+    font-size: var(--lowtext_font-size);
     position: relative;
 
 }
 
 .menu nav li a:hover {
-    color: brown; /* variable */
+    color: var(--color_texto-primario);
 }
 
 .btn__cotizar {
     display: block;
     padding: 8px 40px;
-    border: 2px solid #9a00bf; /* variable */
+    border: 2px solid var(--main_color-principal);
     border-radius: 8px;
     font-weight: 500;
     margin: 0px 20px;
@@ -87,7 +98,7 @@ header {
 }
 .btn__cotizar:hover {
     color: white;
-    background: #9a00bf; /* variable */
+    background: var(--main_color-principal);
 }
 
 .menu .div-logo-redes {
@@ -102,7 +113,89 @@ header {
     width: 40px;
 }
 
+/* portada de inicio */
 
+.container__portada {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: var(--main_color-secundario);
+    
+}
 
+.cover {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
 
+.text__cover {
+    width: 100%;
+
+    padding-right: 150px;
+}
+
+.text__cover h1 {
+    font-size: 50px;
+    color: var(--color_texto-secundario);
+}
+
+.text__cover p {
+    font-size: var(--text_paragraph);
+    margin-top: 40px;
+    color: var(--color_texto-terciario);    
+}
+
+.btn__text {
+    display: block;
+    width: 150px;
+    background: var(--main_color-principal);
+    margin-top: 40px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.btn__text:hover {
+    background: transparent;
+    border: 2px solid var(--main_color-principal);
+    color: var(--color_texto-primario);
+} 
+
+.imgage__cover {
+    width: 100%;    
+}
+
+.imgage__cover img {
+    width: 550px;
+}
+
+/* estilos generales cards o tarjetas */
+
+.container__card-primary{
+    padding-top: 100px;
+}
+
+.card__primary {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.text__card-primary {
+    max-width: 800px;
+    margin: auto;
+}
+
+.text__card-primary p {
+    color: var(--color_texto-primario);
+}
 
